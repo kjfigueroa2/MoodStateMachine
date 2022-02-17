@@ -77,7 +77,7 @@ function drawBackground() {
 
 function drawImage() {
   if( moodImage !== undefined ) {
-    image(moodImage, width/2, height/2);
+    image(moodImage, width/2, height/2-70);
   }  
 }
 
