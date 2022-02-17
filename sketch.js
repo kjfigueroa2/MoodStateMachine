@@ -72,7 +72,7 @@ function keyPressed() {
 //==== MODIFY THIS CODE FOR UI =====/
 
 function drawBackground() {
-  background(0);
+  background(196,215,242);
 }
 
 function drawImage() {
@@ -84,13 +84,13 @@ function drawImage() {
 function drawUI() {
   push();
   textAlign(LEFT);
-  textSize(18);
+  textSize(20);
 
   for( let i = 0; i < transitions.length; i++ ) {
-    fill(255);
+    fill(107,92,219);
 
     if( selectedTransitionNum === i ) {
-      fill(240,50,0);
+      fill(0,159,168);
     }
     text( transitions[i], 100, (height - 100) + (i*30)  );
   }

@@ -1,15 +1,25 @@
 StateName,PNGFilename,TransitionText,NewState
-Relaxed,assets/relaxed.png,See a cute cat,Excited
-Relaxed,assets/relaxed.png,My roommates didn’t wash the dishes so I can't eat,Frustrated
-Angry,assets/angry.png,"Realize the person I was angry at does not care
-",Sad
-Angry,assets/angry.png,I do some breathing exercises,Relaxed
-Sad,assets/sad.png,i can't figure out why I'm crying,Frustrated
-Sad,assets/sad.png,"i have cried out all my tears
-",Relaxed
-Excited,assets/excited.png,"This assignment is not as easy as I thought it was
-",Frustrated
-Excited,assets/excited.png,"someone likes my best friend but the person i like
-",Angry
-Frustrated,assets/frustrated.png,I can't figure out a problem,Angry
-Frustrated,assets/frustrated.png,I figure out a solution,Excited
+Happy,assets/happy.png,Eat the last cookie,Sad
+Happy,assets/happy.png,Get stuck in traffic,Angry
+Happy,assets/happy.png,Get lost on a hike,Confused
+Angry,assets/angry.png,Wake up earlier than needed,Sad
+Angry,assets/angry.png,Do Yoga,Peaceful
+Angry,assets/angry.png,Walk into your surprise birthday party,Excited
+Sad,assets/sad.png,Discover a new hobby,Surprised
+Sad,assets/sad.png,Listen to music,Happy
+Sad,assets/sad.png,Make plans to go to the beach,Excited
+Surprised,assets/surprised.png,Realize you have the day off,Peaceful
+Surprised,assets/surprised.png,Find your favorite shirt you lost,Happy
+Surprised,assets/surprised.png,Forget your phone at home,Annoyed
+Peaceful,assets/peaceful.png,Eavesdrop on someone mid conversation,Confused
+Peaceful,assets/peaceful.png,Forget Someone's Birthday,Surprised
+Peaceful,assets/peaceful.png,Stub toe,Angry
+Excited,assets/excited.png,Cancel plans you've been looking forward to,Angry
+Excited,assets/excited.png,Get stuck deciding where to eat,Annoyed
+Excited,assets/excited.png,Meet someone with the same niche interests as you,Surprised
+Annoyed,assets/annoyed.png,Smell a bouquet of flowers,Happy
+Annoyed,assets/annoyed.png,Read your favorite book,Peaceful
+Annoyed,assets/annoyed.png,Forget someone's name,Confused
+Confused,assets/confused.png,Repeat what you said to someone for the third time,Annoyed
+Confused,assets/confused.png,Have a spontaneous day,Excited
+Confused,assets/confused.png,Find out your favorite shop has closed permanently,Sad
