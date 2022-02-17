@@ -1,6 +1,6 @@
 /*******************************************************************************************************************
-    Moods Example
-    by Scott Kildall
+    Mood State Machine
+
 
     Uses the p5.SimpleStateMachine library. Check the README.md + source code documentation
     The index.html needs to include the line:  <script src="p5.simpleStateManager.js"></script>
@@ -17,7 +17,7 @@ function preload() {
 
 // Setup code goes here
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
 
   // setup the state machine with callbacks
@@ -69,7 +69,7 @@ function keyPressed() {
   }
 }
 
-//==== MODIFY THIS CODE FOR UI =====/
+//draw functions
 
 function drawBackground() {
   background(196,215,242);
@@ -83,8 +83,8 @@ function drawImage() {
 
 function drawUI() {
   push();
-  textAlign(LEFT);
-  textSize(20);
+  textAlign(CENTER);
+  textSize(18);
 
   for( let i = 0; i < transitions.length; i++ ) {
     fill(107,92,219);
@@ -92,7 +92,7 @@ function drawUI() {
     if( selectedTransitionNum === i ) {
       fill(0,159,168);
     }
-    text( transitions[i], 100, (height - 100) + (i*30)  );
+    text( transitions[i], width/2, (height - 100) + (i*30)  );
   }
 
   pop();
